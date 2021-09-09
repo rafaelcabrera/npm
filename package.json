@@ -1,0 +1,33 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Construir un paquete para Nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelcabrera/npm.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Rafael Cabrera <rafaelalejandrocabrera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelcabrera/npm/issues"
+  },
+  "homepage": "https://github.com/rafaelcabrera/npm#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.23.0"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
