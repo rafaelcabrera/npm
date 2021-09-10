@@ -1,11 +1,12 @@
 {
   "name": "npm",
   "version": "1.0.0",
-  "description": "Construir un paquete para Nodejs",
+  "description": "random-messages",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "rafa" : "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,9 @@
   },
   "optionalDependencies": {
     "eslint": "^7.32.0"
-  }
+  },
+"bin":{
+  "random-messages":"./bin/global.js"
+},
+"preferGlobal": true
 }
